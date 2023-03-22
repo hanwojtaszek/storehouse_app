@@ -1,0 +1,10 @@
+O czym śnisz gdy zgasną już kamery?
+1. Wyszukaj produkt
+2. Wyświetl wszystkie produkty
+3. Przyjmij dostawę
+4. Sprzedaj produkt
+5. Zmień cenę produktu
+6. Zmień stan magazynowy produktu
+7. Dodaj nowy produkt do bazy
+8. Usuń produkt z bazy
+9. Wyjdź

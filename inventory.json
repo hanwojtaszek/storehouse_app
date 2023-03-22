@@ -1,0 +1,130 @@
+{
+    "total_quantity": 0,
+    "type": [
+        {
+            "music": [
+                {
+                    "title": "Lata Dwudzieste",
+                    "medium": "CD",
+                    "release_date": "2022",
+                    "catalog_number": "196587759520",
+                    "type": "Płyta",
+                    "quantity": 0,
+                    "price": 49.99,
+                    "description": "Problemy mikroświata, osobiste rozterki, ale i spojrzenie na to, co dzieje się na świecie. O tym jest ten album."
+                },
+                {
+                    "title": "Małomiasteczkowy",
+                    "medium": "CD",
+                    "release_date": "2018",
+                    "catalog_number": "19075880872",
+                    "type": "Płyta",
+                    "quantity": 0,
+                    "price": 45.99,
+                    "description": "To jest mój trzeci album zatytułowany 'Małomiasteczkowy' i zawiera 10 piosenek, które napisałem i zaśpiewałem po polsku."
+                },
+                {
+                    "title": "Annoyance and Disappointment",
+                    "medium": "CD",
+                    "release_date": "2015",
+                    "catalog_number": "88875135982",
+                    "type": "Płyta",
+                    "quantity": 0,
+                    "price": 27.99,
+                    "description": "'Annoyance and Disappointment' – choć tytuł albumu oznacza rozdrażnienie i rozczarowanie, fanów czekają zachwyt i satysfakcja."
+                },
+                {
+                    "title": "Comfort And Happiness",
+                    "medium": "CD",
+                    "release_date": "2013",
+                    "catalog_number": "88765432932",
+                    "type": "Płyta",
+                    "quantity": 0,
+                    "price": 24.99,
+                    "description": "Trójkąty, kwadraty i inne figury Dawida Podsiadło."
+                },
+                {
+                    "title": "Lata Dwudzieste",
+                    "medium": "LP",
+                    "release_date": "2022",
+                    "catalog_number": "19658775951",
+                    "type": "Płyta",
+                    "quantity": 0,
+                    "price": 169.99,
+                    "description": "Płyta winyl kolorowy"
+                },
+                {
+                    "title": "Małomiasteczkowy",
+                    "medium": "LP",
+                    "release_date": "2019",
+                    "catalog_number": "19075880871",
+                    "type": "Płyta",
+                    "quantity": 0,
+                    "price": 149.99,
+                    "description": "Płyta winyl biały"
+                },
+                {
+                    "title": "Annoyance and Disappointment",
+                    "medium": "LP",
+                    "release_date": "2016",
+                    "catalog_number": "88875135981",
+                    "type": "Płyta",
+                    "quantity": 0,
+                    "price": 145.99,
+                    "description": "Płyta"
+                },
+                {
+                    "title": "Comfort And Happiness",
+                    "medium": "LP",
+                    "release_date": "2013",
+                    "catalog_number": "88843002041",
+                    "type": "Płyta",
+                    "quantity": 0,
+                    "price": 99.99,
+                    "description": "Jest to płyta, którą odtwarzasz w gramofonie."
+                }
+            ],
+            "clothes": [
+                {
+                    "size": "S",
+                    "type": "T-shirt",
+                    "quantity": 0,
+                    "price": 69.99,
+                    "description": "Koszulka z trasy Leśna Muzyka rozmiar S"
+                },
+                {
+                    "size": "M",
+                    "type": "T-shirt",
+                    "quantity": 0,
+                    "price": 69.99,
+                    "description": "Koszulka z trasy Leśna Muzyka rozmiar M"
+                },
+                {
+                    "size": "L",
+                    "type": "T-shirt",
+                    "quantity": 0,
+                    "price": 79.99,
+                    "description": "Koszulka z trasy Leśna Muzyka rozmiar L"
+                }
+            ],
+            "poster": [
+                {
+                    "tour": "Leśna Muzyka 2020",
+                    "poster_format": "B0",
+                    "type": "Plakat",
+                    "quantity": 0,
+                    "price": 99.99,
+                    "description": "Plakat z trasy Leśna Muzyka 2020"
+                },
+                {
+                    "tour": "Leśna Muzyka 2020",
+                    "poster_format": "B1",
+                    "type": "Plakat",
+                    "quantity": 0,
+                    "price": 79.99,
+                    "description": "Plakat z trasy Leśna Muzyka 2020"
+                }
+            ]
+        }
+    ]
+}

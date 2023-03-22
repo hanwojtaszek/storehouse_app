@@ -1,0 +1,3 @@
+Fal, nie ma fal... Sklep jest pusty. 
+1. Wprowadź stany magazynowe
+2. Wyjdź
