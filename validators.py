@@ -1,6 +1,7 @@
 def check_option(option, number_of_options):
     """
-            Verifies if user entered valid option from a given number of options.
+            Verify if user entered valid option from a given number of options.
+
             Parameters: option (str) : Option entered by user
                         number_of_options (int) : Number of possible options
             Returns: option (str) : Option after validation
@@ -14,7 +15,8 @@ def check_option(option, number_of_options):
 
 def check_price(price):
     """
-            Verifies if user entered valid price for a product.
+            Verify if user entered valid price for a product.
+
             Parameters: price (str) : Price entered by user
             Returns: price (float) : Price after validation
     """
@@ -33,7 +35,8 @@ def check_price(price):
 
 def check_amount(quantity, amount):
     """
-            Verifies if user entered valid amount of products to remove from the store.
+            Verify if user entered valid amount of products to remove from the store.
+
             Parameters: quantity (int): Quantity of given product in the store
                         amount (int) : Amount entered by user
             Returns: valid (bool) : Boolean value to determine if given amount of products can be removed from store
@@ -48,7 +51,8 @@ def check_amount(quantity, amount):
 
 def check_digits(digit):
     """
-            Verifies if user entered valid digit value.
+            Verify if user entered valid digit value.
+
             Parameters: digit (str): Value entered by user
             Returns: digit (str) : Value after validation
     """
@@ -59,7 +63,8 @@ def check_digits(digit):
 
 def check_poster_size(size):
     """
-            Verifies if user entered valid poster size.
+            Verify if user entered valid poster size.
+
             Parameters: size (str): Value entered by user
             Returns: size (str) : Value after validation
     """
@@ -71,7 +76,8 @@ def check_poster_size(size):
 
 def check_size(size):
     """
-            Verifies if user entered valid size for clothes.
+            Verify if user entered valid size for clothes.
+
             Parameters: size (str): Value entered by user
             Returns: size (str) : Value after validation
     """
@@ -83,7 +89,8 @@ def check_size(size):
 
 def check_medium(medium):
     """
-            Verifies if user entered valid medium for music product.
+            Verify if user entered valid medium for music product.
+
             Parameters: medium (str): Value entered by user
             Returns: medium (str) : Value after validation
     """
@@ -95,7 +102,8 @@ def check_medium(medium):
 
 def check_release_date(release_date):
     """
-            Verifies if user entered valid release date for music product.
+            Verify if user entered valid release date for music product.
+
             Parameters: release_date (str): Value entered by user
             Returns: release_date (str) : Value after validation
     """

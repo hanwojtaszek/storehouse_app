@@ -10,7 +10,8 @@ class Product:
 
     def change_price(self):
         """
-                Allows changing product's price.
+                Allow changing product's price.
+
                 Parameters: N/A
                 Returns: N/A
         """
@@ -18,7 +19,8 @@ class Product:
 
     def change_quantity(self):
         """
-                Allows changing product's quantity.
+                Allow changing product's quantity.
+
                 Parameters: N/A
                 Returns: amount (int) : difference between last and current product's quantity
         """
@@ -29,7 +31,8 @@ class Product:
 
     def add_product(self):
         """
-                Allows adding new product.
+                Allow adding new product.
+
                 Parameters: N/A
                 Returns: amount (int) : difference between last and current product's quantity
         """
@@ -39,7 +42,8 @@ class Product:
 
     def remove_product(self):
         """
-                Allows removing a product.
+                Allow removing a product.
+
                 Parameters: N/A
                 Returns: amount (int) : difference between last and current product's quantity
         """

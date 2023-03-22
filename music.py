@@ -13,7 +13,8 @@ class Music(Product):
 
 def add_music_data(dictionary):
     """
-            Allows to enter data for new product of "music" type (class Music).
+            Allow to enter data for new product of "music" type (class Music).
+
             Parameters: dictionary (dict) : Empty dictionary
             Returns: dictionary (dict) : Dictionary with values entered by user, used to create new class instance
     """

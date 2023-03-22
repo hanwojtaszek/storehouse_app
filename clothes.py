@@ -10,7 +10,8 @@ class Clothes(Product):
 
 def add_clothes_data(dictionary):
     """
-            Allows to enter data for new product of "clother" type (class Clothes).
+            Allow to enter data for new product of "clother" type (class Clothes).
+
             Parameters: dictionary (dict) : Empty dictionary
             Returns: dictionary (dict) : Dictionary with values entered by user, used to create new class instance
     """

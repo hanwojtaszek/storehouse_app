@@ -6,7 +6,7 @@ from poster import Poster
 
 def print_message(option):
     """
-            Displays given message.
+            Display given message.
 
             Parameters: option (str) : Option based on which the selection of message is done.
             Returns: N/A
@@ -20,7 +20,7 @@ def print_message(option):
 
 def print_menu(filename):
     """
-            Loads and displays store's menu from text file.
+            Load and display store's menu from text file.
 
             Parameters: filename (str) : Name of file with app menu in format <name>.txt
             Returns: N/A
@@ -35,7 +35,8 @@ def print_menu(filename):
 
 def convert_list_to_dict(products, total_quantity):
     """
-            Transforms products list to dictionary.
+            Transform products list to dictionary.
+
             Parameters: products (list) : List of classes representing products in the store
                         total_quantity (int) : Total quantity of products in the store.
             Returns: dictionary (dict) : Dictionary with products in the store
@@ -53,7 +54,8 @@ def convert_list_to_dict(products, total_quantity):
 
 def save_inventory_to_file(filename, dictionary):
     """
-            Saves store's inventory to a json file.
+            Save store's inventory to a json file.
+
             Parameters: filename (str) : Name of file with store's inventory in format <name>.json
                         dictionary (dict) : Dictionary with products in the store
             Returns: N/A
@@ -64,7 +66,7 @@ def save_inventory_to_file(filename, dictionary):
 
 def initialize_classes(inventory):
     """
-            Initializes all product classes and appends them to a list.
+            Initialize all product classes and appends them to a list.
 
             Parameters: inventory (dict) : Store's inventory loaded from json file
             Returns: products (list) : List of classes representing products in the store

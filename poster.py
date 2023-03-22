@@ -11,7 +11,8 @@ class Poster(Product):
 
 def add_poster_data(dictionary):
     """
-            Allows to enter data for new product of "poster" type (class Poster).
+            Allow to enter data for new product of "poster" type (class Poster).
+
             Parameters: dictionary (dict) : Empty dictionary
             Returns: dictionary (dict) : Dictionary with values entered by user, used to create new class instance
     """

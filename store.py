@@ -12,7 +12,7 @@ class Store:
 
     def run(self):
         """
-                Main function to run the store. It includes classes' initialization, loading inventory from json file,
+                Run the store. It includes classes' initialization, loading inventory from json file,
                 loading store's menu and a loop to peform operations in the store.
 
                 Parameters: N/A
@@ -42,7 +42,7 @@ class Store:
 
     def load_inventory(self, filename):
         """
-                Loads store inventory from json file.
+                Load store inventory from json file.
 
                 Parameters: filename (str) : Name of file with store's inventory in format <name>.json
                 Returns: inventory (dict) : Dictionary of products in the inventory
@@ -58,7 +58,7 @@ class Store:
     @staticmethod
     def get_total_products_quantity(inventory):
         """
-                Reads total quantity of all products in a store from its inventory.
+                Read total quantity of all products in a store from its inventory.
 
                 Parameters: N/A
                 Returns: inventory["total_quantity"] (int) : Total quantity of products in the store.
@@ -67,7 +67,7 @@ class Store:
 
     def run_store_function(self, products, option, end):
         """
-                Triggers store's functions based on option selected by user.
+                Trigger store's functions based on option selected by user.
 
                 Parameters: products (list) : List of classes representing products in the store
                             option (str) : Option selected by user, representing one of store's functions
@@ -97,7 +97,7 @@ class Store:
 
     def search_store(self, products):
         """
-                Enables searching function in the store.
+                Enable searching function in the store.
 
                 Parameters: products (list) : List of classes representing products in the store
                 Returns: search_results (list) : List indicating if given product satisfies search criteria
@@ -124,7 +124,7 @@ class Store:
     @staticmethod
     def display_search_result(products, search_results, results_count):
         """
-                Displays search results.
+                Display search results.
 
                 Parameters: products (list) : List of classes representing products in the store
                             search_results (list) : List indicating if given product satisfies search criteria
@@ -151,7 +151,7 @@ class Store:
     @staticmethod
     def view_store(products):
         """
-                Displays all products in the store with complete data.
+                Display all products in the store with complete data.
 
                 Parameters: products (list) : List of classes representing products in the store
                 Returns: N/A
@@ -175,7 +175,7 @@ class Store:
 
     def edit_product(self, products, operation):
         """
-                Groups all functions to change product's values. Triggers product search and then an option to change
+                Group all functions to change product's values. Triggers product search and then an option to change
                 given attribute of selected product.
 
                 Parameters: products (list) : List of classes representing products in the store
@@ -221,7 +221,7 @@ class Store:
 
     def add_to_db(self, products):
         """
-                Allows to add a new product to the database and appends products list with new class instance.
+                Allow adding a new product to the database and appends products list with new class instance.
                 Parameters: products (list) : List of classes representing products in the store
                 Returns: products (list) : List of classes representing products in the store
         """
@@ -242,7 +242,8 @@ class Store:
 
     def remove_from_db(self, products):
         """
-                Allows to remove product from the database and removes class instance from products list.
+                Allow removing product from the database and removes class instance from products list.
+
                 Parameters: products (list) : List of classes representing products in the store
                 Returns: products (list) : List of classes representing products in the store
         """
@@ -278,7 +279,8 @@ class Store:
 
     def stocking(self, products):
         """
-                Allows to enter products to store in case it's empty.
+                Allow entering products to store in case it's empty.
+
                 Parameters: products (list) : List of classes representing products in the store
                 Returns: total_quantity (int) : Total quantity of products in the store
         """
@@ -299,7 +301,8 @@ class Store:
 
     def update_inventory(self, products, amount=None):
         """
-                Updates store's inventory in a file based on operations triggered by user.
+                Update store's inventory in a file based on operations triggered by user.
+
                 Parameters: products (list) : List of classes representing products in the store
                             amount (int) : Amount of products to add to/ remove from inventory (if applicable)
                 Returns: N/A
@@ -313,7 +316,8 @@ class Store:
 
     def count_all_products(self, amount):
         """
-                Counts total quantity of products in the store based on operations triggered by user.
+                Count total quantity of products in the store based on operations triggered by user.
+
                 Parameters: amount (int) : Amount of products to add to/ remove from inventory
                 Returns: get_total_products_quantity() + amount (int) : Total quantity of products in the store
         """
